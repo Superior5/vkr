@@ -228,7 +228,7 @@ span.psw {
     width: 50%;
 }
 
-.content_cards h3 {
+.content_cards > h3 {
     text-align: center;
     font-size: 45px;
     color: white;
@@ -267,11 +267,13 @@ span.psw {
     min-width: 250px;
     padding: 1.5rem;
 }
-.card h3{
+
+.card h3 {
     margin: 5px 0;
-    color: #000;
     font-size: 35px;
+    text-align: center;
 }
+
 .card {
     /* ... */
 
@@ -312,6 +314,8 @@ span.psw {
     filter: grayscale(100%);
     margin: 16px 10px;
 }
+
+
 
 .half-circle {
     position: absolute;
@@ -398,4 +402,16 @@ span.psw {
 
 .content_cards h3:last-child span:hover {
     color: #088876;
+}
+
+.card-html h3 {
+    color: #e54c21;
+}
+
+.card-css h3{
+    color: #2196f3;
+}
+
+.card-js h3 {
+    color: #f0db4f;
 }
