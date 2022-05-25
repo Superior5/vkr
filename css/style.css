@@ -140,7 +140,7 @@ nav ul li a:hover::after {
     color: rgb(187, 59, 0);
 }
 
-.sign_in button {
+.sign_in a {
     width: 100px;
     background-color: #339c37;
     color: white;
@@ -175,7 +175,7 @@ input[type=checkbox] {
 
 
 /* Add a hover effect for buttons */
-button:hover {
+.sign_in a:hover {
     opacity: 0.8;
 }
 

@@ -1,0 +1,22 @@
+.course_card-wrapper {
+    margin: 0 1%;
+    min-width: 30%;
+}
+
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-header a{
+    font-size: 20px;
+}
+
+.card-header h5{
+    word-wrap: break-word;
+   margin-right: 10px;
+}
+
+.course_card-wrapper .card{
+border: 2.5px solid rgb(15, 18, 36);
+}

@@ -21,7 +21,8 @@
 
 	<!-- BEGIN SETTINGS -->
 	<!-- Remove this after purchasing -->
-	<link class="js-stylesheet" href="css/light.css" rel="stylesheet">
+	<link class="js-stylesheet" href="css/dark.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/pages-profile.css">
 	<!-- <script src="js/settings.js"></script> -->
 	<!-- END SETTINGS -->
 </head>
@@ -49,49 +50,34 @@
 
 						<div class="col-md-8 col-xl-9">
 							<div class="card">
-								<div class="card-header">
-									<h5 class="mb-0 display-6">Мой прогресс</h5>
-									<hr>
+								<div class="card-header d-flex justify-content-between">
+									<h5 class="mb-0 display-6">Мои курсы</h5>
+									<a class="btn btn-pill btn-primary d-flex text-center">Все курсы</a>
+
 								</div>
-								<div class="card-body h-100 d-flex justify-content-between">
-									<div class="course_card-wrapper col-12 col-md-3  d-flex">
-										<div class="card flex-fill w-100">
-											<div class="card-header">
-												<div class="card-actions float-end">
-													<div class="dropdown show">
-														<a href="#" data-bs-toggle="dropdown" data-bs-display="static">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24"
-																height="24" viewBox="0 0 24 24" fill="none"
-																stroke="currentColor" stroke-width="2"
-																stroke-linecap="round" stroke-linejoin="round"
-																class="feather feather-more-horizontal align-middle">
-																<circle cx="12" cy="12" r="1"></circle>
-																<circle cx="19" cy="12" r="1"></circle>
-																<circle cx="5" cy="12" r="1"></circle>
-															</svg>
-														</a>
+								<hr>
 
-														<div class="dropdown-menu dropdown-menu-end">
-															<a class="dropdown-item" href="#">Action</a>
-															<a class="dropdown-item" href="#">Another action</a>
-															<a class="dropdown-item" href="#">Something else here</a>
-														</div>
-													</div>
-												</div>
-												<h5 class="card-title mb-0">Languages</h5>
+								<div class="card-body h-100 d-flex justify-content-start flex-wrap">
+									<div class="course_card-wrapper">
+										<div class="card flex-fill w-100">
+											<div
+												class="card-header d-flex justify-content-between align-content-center">
+												<h5 class="card-title mb-0 h3 align-self-center d-inline-block">
+													Практический HTML5</h5>
+												<button class="btn btn-pill btn-success">Продолжить занятия</button>
 											</div>
 											<table class="table table-striped my-0">
 												<thead>
 													<tr>
-														<th>Language</th>
-														<th class="text-end">Users</th>
-														<th class="d-none d-xl-table-cell w-75">% Users</th>
+														<th>Занятий</th>
+														<th class="text-end">Пройдено</th>
+														<th class="d-none d-xl-table-cell w-75">Прогресс %</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
-														<td>en-us</td>
-														<td class="text-end">735</td>
+														<td>40</td>
+														<td class="text-center">21</td>
 														<td class="d-none d-xl-table-cell">
 															<div class="progress">
 																<div class="progress-bar bg-primary" role="progressbar"
@@ -100,104 +86,31 @@
 															</div>
 														</td>
 													</tr>
-													<tr>
-														<td>en-gb</td>
-														<td class="text-end">223</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 27%;" aria-valuenow="27"
-																	aria-valuemin="0" aria-valuemax="100">27%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>fr-fr</td>
-														<td class="text-end">181</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 22%;" aria-valuenow="22"
-																	aria-valuemin="0" aria-valuemax="100">22%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>es-es</td>
-														<td class="text-end">132</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 16%;" aria-valuenow="16"
-																	aria-valuemin="0" aria-valuemax="100">16%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>de-de</td>
-														<td class="text-end">118</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 15%;" aria-valuenow="15"
-																	aria-valuemin="0" aria-valuemax="100">15%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>ru-ru</td>
-														<td class="text-end">98</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 13%;" aria-valuenow="13"
-																	aria-valuemin="0" aria-valuemax="100">13%</div>
-															</div>
-														</td>
-													</tr>
+
 												</tbody>
 											</table>
 										</div>
 
 									</div>
-									<div class="course_card-wrapper col-12 col-md-3 d-flex">
+									<div class="course_card-wrapper">
 										<div class="card flex-fill w-100">
-											<div class="card-header">
-												<div class="card-actions float-end">
-													<div class="dropdown show">
-														<a href="#" data-bs-toggle="dropdown" data-bs-display="static">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24"
-																height="24" viewBox="0 0 24 24" fill="none"
-																stroke="currentColor" stroke-width="2"
-																stroke-linecap="round" stroke-linejoin="round"
-																class="feather feather-more-horizontal align-middle">
-																<circle cx="12" cy="12" r="1"></circle>
-																<circle cx="19" cy="12" r="1"></circle>
-																<circle cx="5" cy="12" r="1"></circle>
-															</svg>
-														</a>
-
-														<div class="dropdown-menu dropdown-menu-end">
-															<a class="dropdown-item" href="#">Action</a>
-															<a class="dropdown-item" href="#">Another action</a>
-															<a class="dropdown-item" href="#">Something else here</a>
-														</div>
-													</div>
-												</div>
-												<h5 class="card-title mb-0">Languages</h5>
+											<div
+												class="card-header d-flex justify-content-between align-content-center">
+												<h5 class="card-title mb-0 h3 align-self-center">Стильный CSS</h5>
+												<button class="btn btn-pill btn-success">Продолжить занятия</button>
 											</div>
 											<table class="table table-striped my-0">
 												<thead>
 													<tr>
-														<th>Language</th>
-														<th class="text-end">Users</th>
-														<th class="d-none d-xl-table-cell w-75">% Users</th>
+														<th>Занятий</th>
+														<th class="text-end">Пройдено</th>
+														<th class="d-none d-xl-table-cell w-75">Прогресс %</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
-														<td>en-us</td>
-														<td class="text-end">735</td>
+														<td>40</td>
+														<td class="text-center">21</td>
 														<td class="d-none d-xl-table-cell">
 															<div class="progress">
 																<div class="progress-bar bg-primary" role="progressbar"
@@ -206,104 +119,31 @@
 															</div>
 														</td>
 													</tr>
-													<tr>
-														<td>en-gb</td>
-														<td class="text-end">223</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 27%;" aria-valuenow="27"
-																	aria-valuemin="0" aria-valuemax="100">27%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>fr-fr</td>
-														<td class="text-end">181</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 22%;" aria-valuenow="22"
-																	aria-valuemin="0" aria-valuemax="100">22%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>es-es</td>
-														<td class="text-end">132</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 16%;" aria-valuenow="16"
-																	aria-valuemin="0" aria-valuemax="100">16%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>de-de</td>
-														<td class="text-end">118</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 15%;" aria-valuenow="15"
-																	aria-valuemin="0" aria-valuemax="100">15%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>ru-ru</td>
-														<td class="text-end">98</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 13%;" aria-valuenow="13"
-																	aria-valuemin="0" aria-valuemax="100">13%</div>
-															</div>
-														</td>
-													</tr>
+
 												</tbody>
 											</table>
 										</div>
 
 									</div>
-									<div class="course_card-wrapper col-12 col-md-3  d-flex">
+									<div class="course_card-wrapper">
 										<div class="card flex-fill w-100">
-											<div class="card-header">
-												<div class="card-actions float-end">
-													<div class="dropdown show">
-														<a href="#" data-bs-toggle="dropdown" data-bs-display="static">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24"
-																height="24" viewBox="0 0 24 24" fill="none"
-																stroke="currentColor" stroke-width="2"
-																stroke-linecap="round" stroke-linejoin="round"
-																class="feather feather-more-horizontal align-middle">
-																<circle cx="12" cy="12" r="1"></circle>
-																<circle cx="19" cy="12" r="1"></circle>
-																<circle cx="5" cy="12" r="1"></circle>
-															</svg>
-														</a>
-
-														<div class="dropdown-menu dropdown-menu-end">
-															<a class="dropdown-item" href="#">Action</a>
-															<a class="dropdown-item" href="#">Another action</a>
-															<a class="dropdown-item" href="#">Something else here</a>
-														</div>
-													</div>
-												</div>
-												<h5 class="card-title mb-0">Languages</h5>
+											<div
+												class="card-header d-flex justify-content-between align-content-center">
+												<h5 class="card-title mb-0 h3 align-self-center">Все про JavaScript</h5>
+												<button class="btn btn-pill btn-success">Продолжить занятия</button>
 											</div>
 											<table class="table table-striped my-0">
 												<thead>
 													<tr>
-														<th>Language</th>
-														<th class="text-end">Users</th>
-														<th class="d-none d-xl-table-cell w-75">% Users</th>
+														<th>Занятий</th>
+														<th class="text-end">Пройдено</th>
+														<th class="d-none d-xl-table-cell w-75">Прогресс %</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
-														<td>en-us</td>
-														<td class="text-end">735</td>
+														<td>40</td>
+														<td class="text-center">21</td>
 														<td class="d-none d-xl-table-cell">
 															<div class="progress">
 																<div class="progress-bar bg-primary" role="progressbar"
@@ -312,66 +152,81 @@
 															</div>
 														</td>
 													</tr>
-													<tr>
-														<td>en-gb</td>
-														<td class="text-end">223</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 27%;" aria-valuenow="27"
-																	aria-valuemin="0" aria-valuemax="100">27%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>fr-fr</td>
-														<td class="text-end">181</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 22%;" aria-valuenow="22"
-																	aria-valuemin="0" aria-valuemax="100">22%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>es-es</td>
-														<td class="text-end">132</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 16%;" aria-valuenow="16"
-																	aria-valuemin="0" aria-valuemax="100">16%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>de-de</td>
-														<td class="text-end">118</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 15%;" aria-valuenow="15"
-																	aria-valuemin="0" aria-valuemax="100">15%</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>ru-ru</td>
-														<td class="text-end">98</td>
-														<td class="d-none d-xl-table-cell">
-															<div class="progress">
-																<div class="progress-bar bg-primary" role="progressbar"
-																	style="width: 13%;" aria-valuenow="13"
-																	aria-valuemin="0" aria-valuemax="100">13%</div>
-															</div>
-														</td>
-													</tr>
+
 												</tbody>
 											</table>
 										</div>
 
 									</div>
+
+									<div class="course_card-wrapper">
+										<div class="card flex-fill w-100">
+											<div
+												class="card-header d-flex justify-content-between align-content-center">
+												<h5 class="card-title mb-0 h3 align-self-center">Практический HTML5</h5>
+												<button class="btn btn-pill btn-success">Продолжить занятия</button>
+											</div>
+											<table class="table table-striped my-0">
+												<thead>
+													<tr>
+														<th>Занятий</th>
+														<th class="text-end">Пройдено</th>
+														<th class="d-none d-xl-table-cell w-75">Прогресс %</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>40</td>
+														<td class="text-center">21</td>
+														<td class="d-none d-xl-table-cell">
+															<div class="progress">
+																<div class="progress-bar bg-primary" role="progressbar"
+																	style="width: 43%;" aria-valuenow="43"
+																	aria-valuemin="0" aria-valuemax="100">43%</div>
+															</div>
+														</td>
+													</tr>
+
+												</tbody>
+											</table>
+										</div>
+
+									</div>
+									<div class="course_card-wrapper">
+										<div class="card flex-fill w-100">
+											<div
+												class="card-header d-flex justify-content-between align-content-center">
+												<h5 class="card-title mb-0 h3 align-self-center">Система Git / GitHub
+												</h5>
+												<button class="btn btn-pill btn-success">Продолжить занятия</button>
+											</div>
+											<table class="table table-striped my-0">
+												<thead>
+													<tr>
+														<th>Занятий</th>
+														<th class="text-end">Пройдено</th>
+														<th class="d-none d-xl-table-cell w-75">Прогресс %</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>40</td>
+														<td class="text-center">21</td>
+														<td class="d-none d-xl-table-cell">
+															<div class="progress">
+																<div class="progress-bar bg-primary" role="progressbar"
+																	style="width: 43%;" aria-valuenow="43"
+																	aria-valuemin="0" aria-valuemax="100">43%</div>
+															</div>
+														</td>
+													</tr>
+
+												</tbody>
+											</table>
+										</div>
+
+									</div>
+
 
 								</div>
 							</div>
@@ -379,24 +234,61 @@
 
 						<div class="col-md-4 col-xl-3">
 							<div class="card mb-3">
+								<div class="card-header d-flex justify-content-between">
+									<h5 class="card-title mb-0 align-self-center"> Мой профиль</h5>
+									<div class="card-actions">
+										<div class="dropdown position-relative">
+											<a href="#" data-bs-toggle="dropdown" data-bs-display="static"
+												aria-expanded="true" class="">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+													viewBox="0 0 24 24" fill="none" stroke="currentColor"
+													stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+													class="feather feather-more-horizontal align-middle">
+													<circle cx="12" cy="12" r="1"></circle>
+													<circle cx="19" cy="12" r="1"></circle>
+													<circle cx="5" cy="12" r="1"></circle>
+												</svg>
+											</a>
 
+											<div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+												<a class="dropdown-item" href="pages-settings.html">Настройки</a>
+												<a class="dropdown-item" href="#">Помощь</a>
+												<a class="dropdown-item" href="#">Политика сайта</a>
+												<a class="dropdown-item" href="#">Выйти из аккаунта</a>
+											</div>
+										</div>
+									</div>
+								</div>
 								<div class="card-body text-center">
 									<img src="img/avatars/avatar-2.jpg" alt="Stacie Hall"
 										class="img-fluid rounded-circle mb-2" width="128" height="128" />
 									<h5 class="card-title mb-0">Muslim Muslimov</h5>
 									<div class="text-muted mb-2">Студент frontend-разработки</div>
+									<h5 class="card-title mb-0">До Junior frontend developer осталось: <span>66%</span>
+									</h5>
+									<br>
+									<div class="progress_wrapp d-flex justify-content-around">
+										<h5 class="card-title mb-0">Zero</h5>
+										<div class="progress" style="width: 50%;">
+											<div class="progress-bar bg-success" role="progressbar" style="width: 34%;" aria-valuenow="34"
+												aria-valuemin="0" aria-valuemax="100">34%</div>
+										</div>
 
-
+										<h5 class="card-title mb-0">Hero</h5>
+									</div>
 								</div>
 
 
 							</div>
+
+
 						</div>
 					</div>
-
 				</div>
-			</main>
+
 		</div>
+		</main>
+	</div>
 	</div>
 
 	<script src="js/app.js"></script>
