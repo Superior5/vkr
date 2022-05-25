@@ -1,0 +1,6 @@
+.short-inf .card-text {
+    height: 270px;
+    padding-right: 10px;
+    overflow-y: auto;
+    text-align: justify;
+}

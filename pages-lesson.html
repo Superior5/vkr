@@ -23,6 +23,7 @@
 	<!-- Remove this after purchasing -->
 	<link class="js-stylesheet" href="css/dark.css" rel="stylesheet">
 	<link rel="stylesheet" href="./css/pages-profile.css">
+	<link rel="stylesheet" href="./css/pages-lesson.css">
 	<!-- <script src="js/settings.js"></script> -->
 	<!-- END SETTINGS -->
 </head>
@@ -42,6 +43,7 @@
 
 			<main class="content">
 				<div class="container-fluid p-0">
+					<h1 class="font-weight-bold mb-3">Практический HTML5</h1>
 
 
 					<div class="row">
@@ -50,90 +52,43 @@
 						<div class="col-md-8 col-xl-9">
 							<div class="card">
 								<div class="card-header d-flex justify-content-between">
-									<h5 class="mb-0 display-6">Практический HTML5</h5>
-									<a href="./pages-profile.html" class="btn btn-pill btn-primary d-flex text-center">Личный кабинет</a>
+									<h5 class="mb-0 display-6">Введение в HTML5</h5>
+									<a href="./pages-course.html"
+										class="btn btn-pill btn-primary d-flex text-center">Страница курса</a>
 
 								</div>
 								<hr>
 
-								<div class="card-body h-100 d-flex justify-content-start flex-wrap">
+								<div class="card-body h-100 d-flex justify-content-center flex-wrap">
 
 									<div class="col-12 col-xl-12">
-										<div class="card">
-											<div class="card-header">
-												<h5 class="card-title">Список уроков</h5>
-												<h6 class="card-subtitle text-muted">Каждый урок состоит из видеолекции,
-													конспекта и заданий в тренажере</h6>
+										<div class="card col-12 col-xl-10">
+											<div class="card-body pt-0">
+												<div class="ratio ratio-16x9">
+													<iframe
+														src="https://www.youtube.com/embed/hi4pzKvuEQM?autohide=0&amp;showinfo=0&amp;controls=0"></iframe>
+												</div>
 											</div>
-											<table class="table">
-												<thead>
-													<tr>
-														<th style="width:40%;">Просмотрено</th>
-														<th style="width:40%;">Название</th>
-														<th style="width:25%">Продолжительность видео</th>
-														<th class="d-none d-md-table-cell" style="width:25%"></th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>
-															<svg xmlns="http://www.w3.org/2000/svg" width="24"
-																height="24" viewBox="0 0 24 24" fill="none"
-																stroke="currentColor" stroke-width="2"
-																stroke-linecap="round" stroke-linejoin="round"
-																class="feather-eye-off align-middle me-2">
-																<path
-																	d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24">
-																</path>
-																<line x1="1" y1="1" x2="23" y2="23"></line>
-															</svg>
-														</td>
-														<td>Введение в HTML5</td>
-														<td>01:03:10 (63 мин)</td>
-														<td class="d-none d-md-table-cell"><a href=""
-																class="btn btn-pill btn-success">Смотреть</a></td>
-
-													</tr>
-													<tr>
-														<td>
-															<svg xmlns="http://www.w3.org/2000/svg" width="24"
-																height="24" viewBox="0 0 24 24" fill="none"
-																stroke="currentColor" stroke-width="2"
-																stroke-linecap="round" stroke-linejoin="round"
-																class="feather-eye-off align-middle me-2">
-																<path
-																	d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24">
-																</path>
-																<line x1="1" y1="1" x2="23" y2="23"></line>
-															</svg>
-														</td>
-														<td>Блочные и строчные элементы</td>
-														<td>00:59:05 (59 мин)</td>
-														<td class="d-none d-md-table-cell"><a href=""
-																class="btn btn-pill btn-success">Смотреть</a></td>
-													</tr>
-													<tr>
-														<td>
-															<svg xmlns="http://www.w3.org/2000/svg" width="24"
-																height="24" viewBox="0 0 24 24" fill="none"
-																stroke="currentColor" stroke-width="2"
-																stroke-linecap="round" stroke-linejoin="round"
-																class="feather-eye align-middle me-2">
-																<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z">
-																</path>
-																<circle cx="12" cy="12" r="3"></circle>
-															</svg>
-														</td>
-														<td>Семантические теги</td>
-														<td>00:45:06 (35 мин)</td>
-
-														<td class="d-none d-md-table-cell"><a href=""
-																class="btn btn-pill btn-success">Смотреть</a></td>
-													</tr>
-
-
-												</tbody>
-											</table>
+										</div>
+										<div class="card col-12 col-xl-8">
+											<div class="card-header">
+												<h5 class="card-title mb-0">Коротко о главном</h5>
+											</div>
+											<div class="card-body short-inf">
+												<p class="card-text">Some quick example Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, maiores iusto rem recusandae vel labore. Ducimus ipsum deserunt enim aliquid. Eum inventore fugit deserunt libero vitae facere voluptatibus non incidunt?
+												Dignissimos laudantium illum distinctio rem rerum numquam. Magnam vel praesentium minus optio, assumenda totam quis sequi libero neque et excepturi sit obcaecati nemo voluptate ratione possimus quo odio quam tempore.
+												Pariatur recusandae consectetur temporibus nam dolor voluptas reprehenderit odit praesentium sequi dignissimos eum quae animi distinctio, deserunt itaque impedit velit eos. Eum aspernatur exercitationem modi fuga vitae quam quae impedit!
+												Ipsum aliquid eos asperiores labore quia reprehenderit cum soluta harum odit porro tenetur incidunt eveniet officia itaque, beatae illum nihil. Officia sed totam repudiandae quae voluptatem, numquam pariatur deserunt quisquam?
+												Commodi, rerum. Ex totam ipsa corporis voluptatum! Exercitationem sed quis perferendis eos, fugiat dignissimos neque dolores voluptatem quidem, odit quas mollitia. Ab praesentium iste ut, reiciendis ea unde corporis doloribus. ipsum dolor sit amet
+													consectetur adipisicing elit. Qui, quidem rem nemo earum, magni
+													sapiente harum ipsum dolorem, cupiditate  labore facere tenetur animi
+													reprehenderit sed perspiciatis debitis consequatur quo incidunt!
+													text to build on the card title and make up the bulk of the card's
+													Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus enim molestiae placeat voluptatem adipisci? Similique dicta quia possimus quidem enim! Mollitia ad quaerat voluptate tenetur veniam laboriosam officia blanditiis sequi.
+													content.</p>
+												<a href="#" class="card-link">Назад</a>
+												<a href="#" class="card-link">Вперед</a>
+											</div>
 										</div>
 									</div>
 								</div>
